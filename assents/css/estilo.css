@@ -1,0 +1,309 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    background-image: url(../Fundos/—Pngtree—stream\ binary\ code\ background_1738470.png);
+    content:"";
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    position:fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(34,32,69); 
+}
+
+.titulo{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Indie Flower', cursive,'Segoe UI';
+    height: 150px;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+.barrinha{
+    height: 100px;
+    width: 100px;
+    margin: 0;
+}
+.barrinha img{
+    height: 33px;
+    margin-left: 20px;
+    margin-top: 33px;
+}
+
+.barrinha:hover .modais{
+    transition: 1s;
+    display: block;
+}
+
+
+.modais {
+    position: absolute;
+    color: white;
+    margin-left: 38px;
+    background-color: #18171785;
+    width: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right:2px solid white ;
+    display: none;
+}
+
+.modais li{
+    list-style: none; 
+    padding: 5px;
+}
+
+.modais li:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    border-right:2px solid rgb(0, 174, 255) ;
+}
+
+.projetos{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 200px;
+    font-size: 25px; 
+}
+
+.barra{
+    height: 5px;
+    width: 55px;
+    background-color: rgb(1,229,240);
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:320px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid #8a8383;
+    height: 250px;
+    width: 600px;
+    border-radius: 50px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-family:cursive;
+}
+.container a:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(0, 247, 255, 0.76);
+}
+
+.container-interno{
+    text-align: center;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+}
+.container-interno img{
+    height: 100px;
+    width: 100px;
+    border-radius:50px;
+    margin-top: 7px;
+}
+
+
+/* curriculo */
+.modal-c{
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #18171785;
+}
+.modal-c.abrir{
+    display: flex;
+}
+
+.c-interno{
+    height: 750px;
+    width: 560px;
+    background-color: white;
+}
+.c-interno embed{
+    height: 750px;
+    width: 560px;
+}
+
+
+/* sobre mim */
+.modal-sm{
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #18171785;
+    transition: 3s;
+}
+.modal-sm.abrir{
+    display: flex;
+}
+.div-interna{
+    height: 500px;
+    width: 560px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../Fundos/—Pngtree—code\ icon\ design\ vector_3657923.png);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.black{
+    height:500px;
+    width:560px;
+    background-color: #0000007c;
+    border-radius: 10px;
+}
+.titulo-sobre-m{
+    padding-top: 60px;
+    padding-bottom: 3px;
+    font-size: 20px;
+}
+.barrinha-2{
+    height: 3px;
+    width: 50px;
+    background-color:rgb(1,229,240) ;
+}
+.descricao-sobre-m{
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 17px;
+}
+
+.descricao-sobre-m-2{
+    padding: 15px;
+    font-size: 17px;
+}
+
+
+/* sobre os projetos */
+.modal-sp{
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #18171785;
+    transition: 3s;
+}
+.modal-sp.abrir{
+    display: flex;
+}
+.div-interna-sp{
+    height: 560px;
+    width: 560px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../Fundos/—Pngtree—code\ icon\ design\ vector_3657923.png);
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.black-sp{
+    height:560px;
+    width:560px;
+    background-color: #0000007c;
+    border-radius: 10px;
+}
+.titulo-sobre-p{
+    padding-top: 20px;
+    padding-bottom: 2px;
+    font-size: 22px;
+}
+.titulo-sobre-p-a{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    font-family: Chakra petch, 'Segoe UI';
+}
+.barrinha-2-sp{
+    height: 3px;
+    width: 150px;
+    background-color:rgb(1,229,240) ;
+    margin-bottom: 30px;
+}
+.barrinha-2-sp-a{
+    height: 3px;
+    width: 70px;
+    background-color:rgb(219, 18, 18) ; 
+}
+.descricao-sobre-p{
+  padding: 0px 10px 20px 10px;
+  font-size: 15px;
+}
+
+
+.fechar-1{
+    height:17px;
+    width: 15px;
+    display:flex;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 544px;
+    position: absolute;
+    cursor: pointer;
+}
+.fechar-1:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.fechar-2{
+    height:17px;
+    width: 15px;
+    display:flex;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 544px;
+    position: absolute;
+    cursor: pointer;
+}
+.fechar-2:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.fechar-3{
+    height:17px;
+    width: 15px;
+    display:flex;
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 544px;
+    position: absolute;
+    cursor: pointer;
+}
+.fechar-3:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
