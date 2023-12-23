@@ -1,12 +1,15 @@
 let nome = prompt("Digite seu nome: ")
 document.querySelector('.frase').innerHTML = `Olá ${nome}, seja bem vindo ao meu humilde portifólio`
 
+
 if (nome === "") {
     document.querySelector('.frase').innerHTML = 'Olá, seja bem vindo ao meu humilde portifólio'
 }
-
 if(nome === "diego" || nome === "Diego") {
     document.querySelector('.frase').innerHTML = `Olá tio ${nome}, seja bem vindo ao meu humilde portifólio, espero que goste` 
+}
+if(nome === "Bia" || nome === "Maria beatriz") {
+    document.querySelector('.frase').innerHTML = `Olá Meu amor, seja bem vindo ao meu humilde portifólio, espero que goste e se tiver algum problema me avise rápidamente mocinha` 
 }
 
 
@@ -34,6 +37,7 @@ function abrir_sobremim(){
 }
 document.querySelector('.descricao-sobre-m').innerHTML = `Olá ${nome}, eu sou Ian da Costa Barbosa, tenho 19 anos de idade atualmente e tenho o desejo e a vontade de me tornar um programador. No momento meus estudos, praticas e aprendizados estão focados nas linguagens de programação voltadas para área frontend, são elas: HTML, CSS e JavaScript.`
 
+
 function abrir_sobreprojetos(){
     const modal = document.getElementById('sobre-p');
     modal.classList.add("abrir");
@@ -44,5 +48,3 @@ function abrir_sobreprojetos(){
         }
     })
 }
-
-
