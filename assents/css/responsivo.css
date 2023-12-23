@@ -13,26 +13,19 @@
         padding-top: 50px;
     } 
 
-    .barrinha{
-        height: 80px;
-        width: 95px;
-        margin: 0;
-    }
-    .barrinha img{
-        height: 30px;
-        margin-left: 20px;
-        margin-top: 20px;
+
+    /*MINI MENU*/
+    .modais {
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
     }
     
-    .modais {
-        margin-left: 30px;
+    .modais li{
+        list-style: none; 
+        padding: 10px 20px;
     }
-
-    .projetos{
-        margin-top: 100px;
-        font-size: 20px; 
-    }
-
+    
 
     /*CURRICULO*/
     .meio{
@@ -52,7 +45,6 @@
         height: 70px;
         width: 70px;
     }
-
     .modal-c{
         height: 100%;
         width: 100%;
@@ -78,7 +70,7 @@
     }
     .titulo-sobre-m{
         padding-top: 40px;
-        font-size: 20px;
+        font-size: 18px;
     }
     .descricao-sobre-m{
       padding: 10px;
@@ -110,25 +102,137 @@
         font-size: 15px;
 
     }
-
     .descricao-sobre-p{
       padding: 0px 10px 20px 10px;
       font-size: 13px;
     }
 
+
     /*fechamentos*/
     .fechar-1{
         font-size: 13px;
-        margin-left: 338px;
     }
-
     .fechar-2{
-        margin-left:480px;
+        font-size: 13px;
+    }.fechar-3{
+        font-size: 13px;
     }
-
-    .fechar-3{
-        margin-left:480px;
-    }
-
 }
 
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+    .titulo{
+        text-align: center;
+        font-size: 25px;
+        height: 100px;
+        width: 100%;
+        padding-top: 50px;
+    } 
+
+
+    /*MINI MENU*/
+    .modais {
+        width: 100%;
+        height: 40px;
+        font-size: 16px;
+    }
+    .modais li{
+        list-style: none; 
+        padding: 10px 20px;
+    }
+
+
+    /*PROJETOS FEITOS*/
+    .meio{
+        height:300px;
+        margin-top: 50px; 
+    }
+    .container{
+        display: flex;
+        height: 300px;
+        width: 100%;
+    }
+    .container-interno{
+        height: 150px;
+        width: 150px;
+    }
+    .container-interno img{
+        height: 90px;
+        width: 90px;
+    }
+
+
+    /*CURRICULO*/
+    
+    .modal-c{
+        height: 100%;
+        width: 100%;
+    }
+    .c-interno{
+        height: 560px;
+        width: 350px;
+    }
+    .c-interno embed{
+        height: 560px;
+        width: 350px;
+    }
+
+
+    /*SOBRE MIM */
+    .div-interna{
+        height: 400px;
+        width: 100%;
+    }
+    .black{
+        height:400px;
+        width:100%;
+    }
+    .titulo-sobre-m{
+        padding-top: 40px;
+        font-size: 18px;
+    }
+    .descricao-sobre-m{
+      padding: 10px;
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .descricao-sobre-m-2{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+
+    /*SOBRE OS  PROJETOS */
+    .div-interna-sp{
+        height: 550px;
+        width: 100%;
+    }
+    .black-sp{
+        height:550px;
+        width:100%;
+    }
+    .titulo-sobre-p{
+        padding-top: 20px;
+        padding-bottom: 2px;
+        font-size: 20px;
+    }
+    .titulo-sobre-p-a{
+        font-size: 18px;
+    }
+    .descricao-sobre-p{
+      padding: 0px 10px 20px 10px;
+      font-size: 16px;
+    }
+
+
+    /*FECHAMENTOS */
+    .fechar-1{
+        font-size: 15px;
+    }
+    .fechar-2{
+        font-size: 15px;
+    }
+    .fechar-3{
+        font-size: 15px;
+    }
+}
