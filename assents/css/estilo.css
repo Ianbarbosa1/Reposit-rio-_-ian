@@ -94,7 +94,7 @@ body::before{
 .container a{
     text-decoration: none;
     color: white;
-    font-family:cursive,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:cursive,'Segoe UI';
 }
 .container a:hover{
     background-color: rgba(255, 255, 255, 0.15);
