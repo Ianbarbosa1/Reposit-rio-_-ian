@@ -18,14 +18,13 @@
     .modais {
         width: 100%;
         height: 40px;
-        font-size: 13px;
+        font-size: 11px;
     }
     
     .modais li{
         list-style: none; 
         padding: 10px 20px;
     }
-    
 
     /*CURRICULO*/
     .meio{
@@ -132,7 +131,7 @@
 
     /*MINI MENU*/
     .modais {
-        width: 100%;
+        width: 500px;
         height: 40px;
         font-size: 16px;
     }
@@ -234,5 +233,18 @@
     }
     .fechar-3{
         font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width : 1900px){
+     /*MINI MENU*/
+     .modais {
+        width: 500px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .modais li{
+        list-style: none; 
+        padding: 10px 20px;
     }
 }
