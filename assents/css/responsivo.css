@@ -109,17 +109,19 @@
 
     /*fechamentos*/
     .fechar-1{
-        font-size: 13px;
+        font-size: 10px;
         background-color: rgb(50,54,57);
+        height: 14px;
+        width: 13px;
     }
     .fechar-2{
-        font-size: 15px;
+        font-size: 12px;
         height: 20px;
         width: 20px;
         background-color: rgba(0, 0, 0, 0);
     }
     .fechar-3{
-        font-size: 15px;
+        font-size: 12px;
         height: 20px;
         width: 20px;
         background-color: rgba(0, 0, 0, 0);
