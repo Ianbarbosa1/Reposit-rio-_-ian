@@ -263,8 +263,11 @@ body::before{
 .fechar-1{
     height:17px;
     width: 17px;
+    font-size: 15px;
     display:flex;
-    color: rgb(250, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     cursor: pointer;
@@ -274,13 +277,17 @@ body::before{
 }
 .fechar-1:hover{
     background-color: rgb(159, 160, 161);
+    color: red;
 }
 
 .fechar-2{
     height:17px;
-    width: 15px;
+    width: 17px;
+    font-size: 15px;
     display:flex;
-    color: rgb(250, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     cursor: pointer;
@@ -289,13 +296,17 @@ body::before{
 }
 .fechar-2:hover{
     background-color: rgb(159, 160, 161);
+    color: red;
 }
 
 .fechar-3{
     height:17px;
-    width: 15px;
+    width: 17px;
+    font-size: 15px;
     display:flex;
-    color: rgb(250, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     cursor: pointer;
@@ -304,4 +315,5 @@ body::before{
 }
 .fechar-3:hover{
     background-color: rgb(159, 160, 161);
+    color: red;
 }
