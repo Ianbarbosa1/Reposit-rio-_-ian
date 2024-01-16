@@ -271,6 +271,7 @@ body::before{
     height: 35px;
     background-image: linear-gradient(to top right, rgb(0, 255, 242),rgb(5, 226, 255), rgb(0, 174, 255),rgb(5, 70, 155),rgb(4, 0, 255));
     margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 20px;
 }
 .repositorio a{
