@@ -113,6 +113,10 @@ body::before{
     width: 100px;
     border-radius:50px;
     margin-top: 7px;
+    
+}
+.container-interno:hover{
+    padding: 2px 10px;
 }
 
 
@@ -257,8 +261,30 @@ body::before{
   padding: 0px 10px 20px 10px;
   font-size: 15px;
 }
-.container-interno:hover{
-    padding: 2px 10px;
+
+/* REPOSITÓRIOS */
+.repositorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 35px;
+    background-image: linear-gradient(to top right, rgb(0, 255, 242),rgb(5, 226, 255), rgb(0, 174, 255),rgb(5, 70, 155),rgb(4, 0, 255));
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.repositorio a{
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.repositorio:hover a{
+    color: rgb(255, 255, 255);
+}
+.repositorio:hover{
+    transition: 10s;
+    background-image: linear-gradient(to top right,rgb(4, 0, 255),rgb(5, 70, 155),rgb(0, 174, 255),rgb(5, 226, 255),rgb(0, 255, 242));
 }
 
 
