@@ -1,10 +1,11 @@
 @media screen and (min-width: 300px) and (max-width: 1050px){
+@media screen and (min-width: 300px) and (max-width: 1050px){
     body::before{
         background-repeat: repeat-y;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and (min-width: 320px) and (max-width: 650px){
     .titulo{
         text-align: center;
         font-size: 25px;
@@ -26,24 +27,27 @@
         padding: 10px 20px;
     }
 
-    /*CURRICULO*/
+    /*PROJETOS*/
     .meio{
-        height:350px;
+        height:450px;
         margin-top: 50px;
     }
     .container{
         display: block;
-        height: 350px;
+        height: 450px;
         width: 100%;
     }
     .container-interno{
-        height: 110px;
+        height: 100px;
         width: 150px;
+        margin-bottom: 15px;
     }
     .container-interno img{
         height: 70px;
         width: 70px;
     }
+
+    /*CURRICULO*/
     .modal-c{
         height: 100%;
         width: 100%;
