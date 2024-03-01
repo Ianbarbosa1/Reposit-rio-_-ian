@@ -249,13 +249,13 @@ body::before{
 .barrinha-2-sp{
     height: 3px;
     width: 150px;
-    background-color:rgb(1,229,240) ;
+    background-color:rgb(1,229,240);
     margin-bottom: 30px;
 }
 .barrinha-2-sp-a{
     height: 3px;
     width: 70px;
-    background-color:rgb(219, 18, 18) ; 
+    background-color:rgb(219, 18, 18); 
 }
 .descricao-sobre-p{
   padding: 0px 10px 20px 10px;
