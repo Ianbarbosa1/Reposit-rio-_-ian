@@ -2,7 +2,6 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body::before{
@@ -15,7 +14,7 @@ body::before{
     z-index: -1;
     height: 100%;
     width: 100%;
-    background-color: rgb(34,32,69);
+    background-color:rgb(34,32,69);
 }
 
 .titulo{
