@@ -34,11 +34,11 @@
     }
     .container{
         display: block;
-        height: 450px;
+        height: 475px;
         width: 100%;
     }
     .container-interno{
-        height: 100px;
+        height: 105px;
         width: 150px;
         margin-bottom: 15px;
     }
@@ -90,11 +90,11 @@
 
     /*SOBRE OS  PROJETOS */
     .div-interna-sp{
-        height: 550px;
+        height: 680px;
         width: 100%;
     }
     .black-sp{
-        height:550px;
+        height:680px;
         width:100%;
     }
     .titulo-sobre-p{
@@ -217,11 +217,11 @@
 
     /*SOBRE OS  PROJETOS */
     .div-interna-sp{
-        height: 550px;
+        height: 680px;
         width: 100%;
     }
     .black-sp{
-        height:550px;
+        height:680px;
         width:100%;
     }
     .titulo-sobre-p{
