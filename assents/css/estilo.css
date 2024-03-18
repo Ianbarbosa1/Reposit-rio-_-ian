@@ -275,15 +275,18 @@ body::before{
     background-size: 300% 100%;
     background-image: linear-gradient(to left, rgb(0, 255, 242),rgb(5, 226, 255), rgb(0, 119, 255),rgb(5, 70, 155),rgb(10, 6, 206));
     animation: degrade 5s infinite alternate;
+
 }
 .repositorio a{
     text-decoration: none;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .repositorio :hover{
     color: white;
 }
+
 @keyframes degrade {
     0%{
         background-position-x: 0%;
@@ -291,6 +294,7 @@ body::before{
     100%{
         background-position-x: 100%;
     }
+    
 }
 
 
