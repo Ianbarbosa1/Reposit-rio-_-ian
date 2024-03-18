@@ -269,23 +269,20 @@ body::before{
     align-items: center;
     width: 140px;
     height: 35px;
-    background-image: linear-gradient(to top right, rgb(0, 255, 242),rgb(5, 226, 255), rgb(0, 174, 255),rgb(5, 70, 155),rgb(4, 0, 255));
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to left, rgb(0, 255, 242),rgb(5, 226, 255), rgb(0, 119, 255),rgb(5, 70, 155),rgb(10, 6, 206));
+    animation: degrade 5s infinite alternate;
 }
 .repositorio a{
     text-decoration: none;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.repositorio:hover a{
-    color: rgb(255, 255, 255);
-}
-.repositorio:hover{
-    transition: 10s;
-    background-image: linear-gradient(to top right,rgb(4, 0, 255),rgb(5, 70, 155),rgb(0, 174, 255),rgb(5, 226, 255),rgb(0, 255, 242));
+.repositorio :hover{
+    color: white;
 }
 
 
