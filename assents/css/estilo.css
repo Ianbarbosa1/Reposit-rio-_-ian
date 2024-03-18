@@ -284,6 +284,14 @@ body::before{
 .repositorio :hover{
     color: white;
 }
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
 
 
 /* FECHAMENTOS */
