@@ -1,17 +1,48 @@
-let nome = prompt("Digite seu nome: ");
+let nome = prompt("Digite seu nome: ")
+let hrs = new Date().getHours()
+
 
 let frase = [ 
-    `Olá ${nome}, seja bem vindo ao meu humilde portifólio`,
-    'Olá, seja bem vindo ao meu humilde portifólio'
+    `Bom dia ${nome}, seja bem vindo ao meu humilde portfólio`,
+    'Bom dia, seja bem vindo ao meu humilde portfólio',
+
+    `Boa tarde ${nome}, seja bem vindo ao meu humilde portfólio`,
+    'Boa tarde, seja bem vindo ao meu humilde portfólio',
+
+    `Boa noite ${nome}, seja bem vindo ao meu humilde portfólio`,
+    'Boa noite, seja bem vindo ao meu humilde portfólio',
 ];
 
 
 if (nome === "" || nome === null) {
-    document.querySelector('.frase').innerHTML = frase [1]
-    }  
+    if (hrs >= 5 && hrs <= 13){
+        document.querySelector('.frase').innerHTML = frase[1]
+    }
+    else if(hrs >= 14 && hrs <= 18 ){
+        document.querySelector('.frase').innerHTML = frase[3]
+    }
+    else if(hrs >= 19 && hrs <= 23){
+        document.querySelector('.frase').innerHTML = frase[5]
+    }
+    else if(hrs >= 1 && hrs <= 4){
+        document.querySelector('.frase').innerHTML = frase[5]
+    }
+} 
     else{
-        document.querySelector('.frase').innerHTML = frase[0]
+        if (hrs >= 5 && hrs <= 13){
+            document.querySelector('.frase').innerHTML = frase[0]
+        }
+        else if(hrs >= 14 && hrs <= 18 ){
+            document.querySelector('.frase').innerHTML = frase[2]
+        }
+        else if(hrs >= 19 && hrs <= 23){
+            document.querySelector('.frase').innerHTML = frase[4]
+        }
+        else if(hrs >= 1 && hrs <= 4){
+            document.querySelector('.frase').innerHTML = frase[4]
+        }
 }
+
 
 
 /*ABERTURA DOS MODAIS */
