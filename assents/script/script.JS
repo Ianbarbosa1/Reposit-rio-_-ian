@@ -15,10 +15,10 @@ let frase = [
 
 
 if (nome === "" || nome === null) {
-    if (hrs >= 5 && hrs <= 13){
+    if (hrs >= 5 && hrs <= 12){
         document.querySelector('.frase').innerHTML = frase[1]
     }
-    else if(hrs >= 14 && hrs <= 18 ){
+    else if(hrs >= 13 && hrs <= 18 ){
         document.querySelector('.frase').innerHTML = frase[3]
     }
     else if(hrs >= 19 && hrs <= 23){
@@ -29,10 +29,10 @@ if (nome === "" || nome === null) {
     }
 } 
     else{
-        if (hrs >= 5 && hrs <= 13){
+        if (hrs >= 5 && hrs <= 12){
             document.querySelector('.frase').innerHTML = frase[0]
         }
-        else if(hrs >= 14 && hrs <= 18 ){
+        else if(hrs >= 13 && hrs <= 18 ){
             document.querySelector('.frase').innerHTML = frase[2]
         }
         else if(hrs >= 19 && hrs <= 23){
