@@ -16,7 +16,7 @@
 
     /*MINI MENU*/
     .modais {
-        width: 100%;
+        width: 95%;
         height: 40px;
         font-size: 11px;
     }
@@ -33,18 +33,19 @@
         margin-top: 50px;
     }
     .container{
-        display: block;
-        height: 475px;
-        width: 100%;
+        height: 450px;
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 5px;
     }
     .container-interno{
-        height: 105px;
+        height: 120px;
         width: 150px;
         margin-bottom: 15px;
     }
     .container-interno img{
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
     }
 
 
@@ -87,6 +88,16 @@
         font-size: 13px;
     }
 
+    .s-linguagens{
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .linguagens img{
+        height: 45px;
+        margin: 10px;
+    }
+    
+
 
     /*SOBRE OS  PROJETOS */
     .div-interna-sp{
@@ -124,11 +135,13 @@
         height: 20px;
         width: 20px;
         background-color: rgba(0, 0, 0, 0);
+        margin-right: 5px;
     }
     .fechar-3{
         font-size: 13px;
         height: 20px;
         width: 20px;
+        margin-right: 5px;
         background-color: rgba(0, 0, 0, 0);
     }
 }
@@ -162,16 +175,18 @@
     }
     .container{
         display: flex;
-        height: 300px;
+        height: 350px;
         width: 100%;
+        flex-wrap: wrap;
+        gap: 5px;
     }
     .container-interno{
-        height: 150px;
-        width: 150px;
+        height: 160px;
+        width: 160px;
     }
     .container-interno img{
-        height: 90px;
-        width: 90px;
+        height: 100px;
+        width: 100px;
     }
 
 
@@ -193,11 +208,11 @@
 
     /*SOBRE MIM */
     .div-interna{
-        height: 400px;
+        height: 440px;
         width: 100%;
     }
     .black{
-        height:400px;
+        height:440px;
         width:100%;
     }
     .titulo-sobre-m{
@@ -205,7 +220,7 @@
         font-size: 18px;
     }
     .descricao-sobre-m{
-      padding: 10px;
+      padding: 15px;
       margin-top: 25px;
       font-size: 16px;
     }
