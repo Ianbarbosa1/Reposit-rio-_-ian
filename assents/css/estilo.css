@@ -85,20 +85,22 @@ body::before{
 .container{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 25px;
     border: 1px solid #8a8383;
     height: 250px;
-    width: 700px;
+    width: 870px;
     border-radius: 50px;
 }
 .container a{
     text-decoration: none;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'kalam', cursive;
+    font-size: 17px;
 }
 .container a:hover{
     background-color: rgba(255, 255, 255, 0.15);
-    color: rgba(0, 247, 255, 0.76);
+    color: black;
 }
 .container-interno{
     text-align: center;
@@ -161,7 +163,7 @@ body::before{
     display: flex;
 }
 .div-interna{
-    height: 500px;
+    height: 540px;
     width: 560px;
     color: white;
     display: flex;
@@ -175,7 +177,7 @@ body::before{
     border-radius: 10px;
 }
 .black{
-    height:500px;
+    height:540px;
     width:560px;
     background-color: #0000007c;
     border-radius: 10px;
@@ -198,6 +200,14 @@ body::before{
 .descricao-sobre-m-2{
     padding: 15px;
     font-size: 17px;
+}
+.s-linguagens{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.linguagens img{
+    height: 50px;
+    margin: 10px;
 }
 
 
@@ -228,6 +238,7 @@ body::before{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    margin-top: 15px;
 }
 .black-sp{
     height:660px;
@@ -300,8 +311,8 @@ body::before{
 
 /* FECHAMENTOS */
 .fechar-1{
-    height:17px;
-    width: 17px;
+    height:19px;
+    width:19px;
     font-size: 15px;
     display:flex;
     justify-content: center;
@@ -320,8 +331,8 @@ body::before{
 }
 
 .fechar-2{
-    height:17px;
-    width: 17px;
+    height:19px;
+    width:19px;
     font-size: 15px;
     display:flex;
     justify-content: center;
@@ -339,8 +350,8 @@ body::before{
 }
 
 .fechar-3{
-    height:17px;
-    width: 17px;
+    height:19px;
+    width:19px;
     font-size: 15px;
     display:flex;
     justify-content: center;
