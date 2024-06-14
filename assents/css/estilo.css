@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*IMAGEM DE FUNDO*/
 body::before{
     background-image: url(../Fundos/—Pngtree—stream\ binary\ code\ background_1738470.png);
     content:"";
@@ -109,7 +110,6 @@ body::before{
     border: 2px solid rgba(255, 255, 255, 0.466);
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
-
 }
 .container a:hover{
     color: rgb(0, 217, 255);
@@ -130,7 +130,6 @@ body::before{
     width: 100px;
     border-radius:50px;
     margin-top: 7px;
-    
 }
 
 
@@ -204,7 +203,7 @@ body::before{
 .barrinha-2{
     height: 3px;
     width: 50px;
-    background-color:rgb(1,229,240) ;
+    background-color:rgb(1,229,240);
 }
 .descricao-sobre-m{
   padding: 10px;
@@ -288,6 +287,7 @@ body::before{
   font-size: 15px;
 }
 
+
 /* REPOSITÓRIOS */
 .repositorio{
     display: flex;
@@ -322,6 +322,7 @@ body::before{
     }
     
 }
+
 
 /* FECHAMENTOS */
 .fechar-1{
