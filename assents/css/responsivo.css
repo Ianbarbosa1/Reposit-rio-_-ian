@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 650px){
+@media screen and (min-width: 400px) and (max-width: 650px){
     .titulo{
         text-align: center;
         font-size: 25px;
@@ -23,7 +23,12 @@
     
     .modais li{
         list-style: none; 
-        padding: 10px 20px;
+        padding: 10px 30px;
+
+    }
+    .modais li:hover {
+        transition: 0s;
+        padding: 12px 30px ;
     }
 
 
@@ -34,18 +39,22 @@
     }
     .container{
         height: 450px;
-        width: 90%;
+        width: 95%;
         flex-wrap: wrap;
         gap: 5px;
+        margin: 0px;
     }
     .container-interno{
-        height: 120px;
-        width: 150px;
-        margin-bottom: 15px;
+        height: 150px;
+        width: 120px;
+        font-size: 15px;
     }
     .container-interno img{
         height: 90px;
         width: 90px;
+    }
+    .container a:hover{
+        padding: 5px 5px;
     }
 
 
@@ -101,11 +110,11 @@
 
     /*SOBRE OS  PROJETOS */
     .div-interna-sp{
-        height: 680px;
+        height: 610px;
         width: 100%;
     }
     .black-sp{
-        height:680px;
+        height:610px;
         width:100%;
     }
     .titulo-sobre-p{
@@ -146,7 +155,7 @@
     }
 }
 
-@media screen and (min-width: 651px) and (max-width: 1000px){
+@media screen and (min-width: 651px) and (max-width: 900px){
     .titulo{
         text-align: center;
         font-size: 25px;
@@ -164,21 +173,25 @@
     }
     .modais li{
         list-style: none; 
-        padding: 10px 20px;
+        padding:5px 5px;
+    }
+    .modais li:hover {
+        padding: 9px 15px;
+        transition: 0.5s;
     }
 
 
     /*PROJETOS FEITOS*/
     .meio{
-        height:300px;
+        height:400px;
         margin-top: 50px; 
     }
     .container{
         display: flex;
-        height: 350px;
-        width: 100%;
+        height: 450px;
+        width:95%;
         flex-wrap: wrap;
-        gap: 5px;
+        gap: 10px;
     }
     .container-interno{
         height: 160px;
@@ -187,6 +200,12 @@
     .container-interno img{
         height: 100px;
         width: 100px;
+    }
+    .container a:hover{
+        color: rgb(0, 217, 255);
+        padding: 1px 3px;
+        transition: 0.3s;
+        border-color: rgb(0, 217, 255) white;
     }
 
 
@@ -209,7 +228,7 @@
     /*SOBRE MIM */
     .div-interna{
         height: 440px;
-        width: 100%;
+        width: 95%;
     }
     .black{
         height:440px;
@@ -232,11 +251,11 @@
 
     /*SOBRE OS  PROJETOS */
     .div-interna-sp{
-        height: 680px;
-        width: 100%;
+        height: 610px;
+        width: 95%;
     }
     .black-sp{
-        height:680px;
+        height:610px;
         width:100%;
     }
     .titulo-sobre-p{
@@ -265,16 +284,16 @@
     }
 }
 
-@media screen and (min-width: 1001px) and (max-width : 1900px){
+@media screen and (min-width: 901px) and (max-width : 1900px){
     
      /*MINI MENU*/
      .modais {
         width: 500px;
-        height: 40px;
+        height: 50px;
         font-size: 16px;
     }
     .modais li{
         list-style: none; 
-        padding: 10px 20px;
+        padding: 5px 0px;
     }
 }
