@@ -44,7 +44,6 @@ if (nome === "" || nome === null) {
 }
 
 
-
 /*ABERTURA DOS MODAIS */
 function abrir_curriculo(){
     const modal = document.getElementById('curriculo');
@@ -67,7 +66,7 @@ function abrir_sobremim(){
         }
     })
 }
-
+    
 function abrir_sobreprojetos(){
     const modal = document.getElementById('sobre-p');
     modal.classList.add("abrir");
@@ -78,4 +77,6 @@ function abrir_sobreprojetos(){
         }
     })
 }
-document.querySelector('.descricao-sobre-m').innerHTML = `Olá, eu sou Ian da Costa Barbosa, tenho 19 anos de idade atualmente e tenho o desejo e a vontade de me tornar um programador. No momento meus estudos, praticas e aprendizados estão focados nas linguagens voltadas para área frontend, são elas: <b> <br> HTML, CSS e JavaScript. </b>`
+
+
+document.querySelector('.descricao-sobre-m').innerHTML = `Olá, eu sou Ian da Costa Barbosa, tenho 20 anos de idade atualmente e tenho o desejo e a vontade de me tornar um programador. No momento meus estudos, praticas e aprendizados estão focados nas linguagens voltadas para área frontend.`
