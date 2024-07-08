@@ -4,6 +4,153 @@
     }
 }
 
+@media screen and (min-width: 350px) and (max-width: 400px){
+    .titulo{
+        text-align: center;
+        font-size: 25px;
+        height: 100px;
+        width: 100%;
+        padding-top: 50px;
+    } 
+
+
+    /*MINI MENU*/
+    .modais {
+        width: 95%;
+        height: 40px;
+        font-size: 11px;
+    }
+    
+    .modais li{
+        padding: 5px 10px;
+    }
+    .modais li:hover {
+        padding: 12px 30px ;
+    }
+
+
+    /*PROJETOS*/
+    .meio{
+        height:550px;
+        margin-top: 50px;
+    }
+    .container{
+        height: 550px;
+        width: 95%;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin: 0px;
+    }
+    .container-interno{
+        height: 150px;
+        width: 120px;
+        font-size: 15px;
+    }
+    .container-interno img{
+        height: 90px;
+        width: 90px;
+    }
+    .container a:hover{
+        padding: 5px 5px;
+    }
+
+
+    /*CURRICULO*/
+    .modal-c{
+        height: 100%;
+        width: 100%;
+    }
+    .c-interno{
+        height: 560px;
+        width: 340px;
+    }
+    .c-interno embed{
+        height: 560px;
+        width: 340px;
+    }
+
+
+    /*SOBRE MIM */
+    .div-interna{
+        height: 460px;
+        width: 100%;
+    }
+    .black{
+        height:460px;
+        width:100%;
+    }
+    .titulo-sobre-m{
+        padding-top: 40px;
+        font-size: 18px;
+    }
+    .descricao-sobre-m{
+      padding: 10px;
+      margin-top: 25px;
+      font-size: 13px;
+    }
+    
+    .descricao-sobre-m-2{
+        padding: 15px;
+        font-size: 13px;
+    }
+
+    .s-linguagens{
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .linguagens img{
+        height: 45px;
+        margin: 10px;
+    }
+    
+
+
+    /*SOBRE OS  PROJETOS */
+    .div-interna-sp{
+        height: 700px;
+        width: 100%;
+    }
+    .black-sp{
+        height:700px;
+        width:100%;
+    }
+    .titulo-sobre-p{
+        padding-top: 20px;
+        padding-bottom: 2px;
+        font-size: 20px;
+    }
+    .titulo-sobre-p-a{
+        font-size: 15px;
+    }
+    .descricao-sobre-p{
+      padding: 0px 10px 20px 10px;
+      font-size: 13px;
+    }
+
+
+    /*fechamentos*/
+    .fechar-1{
+        font-size: 10px; 
+        width: 16px;
+        background-color: rgb(50,54,57);
+        height: 16px;
+    }
+    .fechar-2{
+        font-size: 13px;
+        height: 20px;
+        width: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        margin-right: 5px;
+    }
+    .fechar-3{
+        font-size: 13px;
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
 @media screen and (min-width: 400px) and (max-width: 650px){
     .titulo{
         text-align: center;
