@@ -1,157 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Ian Barbosa</title>
-    <link rel="website icon"  type="png" href="./imagens/Ian.png">
+    <link rel="website icon" type="png" href="./imagens/Ian.png">
     <link rel="stylesheet" href="./assents/css/estilo.css">
     <link rel="stylesheet" href="./assents/css/responsivo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap" rel="stylesheet">
+    <!--FONTES EXPORTADAS-->
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Neucha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Bruno+Ace&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- MODAIS -->
-    <div class="modal-c" id="curriculo">
-            <div class="c-interno">
-                <div class="fechar-1" > 
-                    <div id="fechar">✖</div>
-                </div>
-
-                <embed src="./curriculo/curriculo-IanBarbosa.pdf">
+    <!-- CURRICULO -->
+    <section class="modal-c" id="curriculo">
+        <div class="c-interno">
+            <div class="fechar-1">
+                <div id="fechar">✖</div>
             </div>
-    </div>
 
-    <div class="modal-sm" id="sobre-m">
-            
+            <embed src="./curriculo/curriculo-IanBarbosa.pdf">
+        </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section class="modal-sm" id="sobre-m">
         <div class="div-interna">
-            <div class="fechar-2" > 
+            <div class="fechar-2">
                 <div id="fechar">✖</div>
             </div>
-                
-            <div class="black"> 
-                <p class="titulo-sobre-m">SOBRE MIM</p>
+
+            <p class="titulo-sobre-m">SOBRE MIM</p>
+            <div class="barrinha-2"></div>
+            <p class="descricao-sobre-m"></p>
+            <p class="descricao-sobre-m-2"> Meu primeiro contato com a tecnologia foi por meio de um tio, que me ensinou os conceitos inicias sobre manutenção e redes de computadores, e nesse periodo foi iniciado meus estudos para CCNA. Depois de alguns meses, iniciei na faculdade de engenharia de software e na minha primeira aula tive o contato com a programação, e estou até os dias atuais aprimorando meus conhecimentos na área.</p>
+
+            <div class="linguagens">
+                <p class="s-linguagens">LINGUAGENS</p>
                 <div class="barrinha-2"></div>
-                <p class="descricao-sobre-m"></p>
-                <p class="descricao-sobre-m-2"> Meu primeiro contato com a tecnologia foi por meio de um tio, que me ensinou os conceitos inicias sobre manutenção e redes de computadores, e nesse periodo foi iniciado meus estudos para  CCNA. Depois de alguns meses, iniciei na faculdade de engenharia de software e na minha primeira aula tive o contato com a programação, e estou até os dias atuais aprimorando meus conhecimentos na área.</p>
-                
-                <div class="linguagens"> 
-                    <p class="s-linguagens">LINGUAGENS</p>
-                    <div class="barrinha-2"></div>
-                    <img src="./imagens/linguagens/HTML.png" alt="">
-                    <img src="./imagens/linguagens/CSS.png" alt="">
-                    <img src="./imagens/linguagens/JavaScript.png" alt="">
-                    <img src="./imagens/linguagens/Python.png" alt="">
-                </div>
+                <img src="./imagens/linguagens/HTML.png" alt="">
+                <img src="./imagens/linguagens/CSS.png" alt="">
+                <img src="./imagens/linguagens/JavaScript.png" alt="">
+                <img src="./imagens/linguagens/Python.png" alt="">
             </div>
         </div>
+    </section>
+
+    <!-- MINI MENU  -->
+    <nav class="modal">
+        <nav class="modais">
+            <p onclick="abrir_curriculo()"> Meu currículo </p>
+            <nav class="barra-vertical"></nav>
+            <p onclick="abrir_sobremim()"> Sobre Mim </p>
+        </nav>
+    </nav>
+
+    <!-- TITULO -->
+    <div class="titulo">
+        <p class="frase"></p>
     </div>
 
-    <div class="modal-sp" id="sobre-p">
-        <div class="div-interna-sp">
-            <div class="fechar-3" > 
-                <div id="fechar">✖</div>
-            </div>
-
-            <div class="black-sp"> 
-                <p class="titulo-sobre-p">SOBRE OS PROJETOS</p>
-                <div class="barrinha-2-sp"></div>
-
-                <p class="titulo-sobre-p-a">MASCOTE RAÇÕES</p>
-                <div class="barrinha-2-sp-a"></div>
-                <p class="descricao-sobre-p">Este projeto foi baseado em um pet shop que foi a primeira empresa que eu trabalhei, ele foi elaborado para demonstrar alguns dos principais produtos mais procurados e também para mostrar a localização detalhada de cada filial.</p>
-
-                <p class="titulo-sobre-p-a">ROBERTS MIX</p>
-                <div class="barrinha-2-sp-a"></div>
-                <p class="descricao-sobre-p">Esta landing page foi desenhada de acordo com o design e o ambiente local, essa lanchonete foi meu refugio e durante alguns dias frequentando-a eu abstrai tudo do ambiente e coloquei nesta landing page.</p>
-
-                <p class="titulo-sobre-p-a">CRISTIANO RONALDO</p>
-                <div class="barrinha-2-sp-a"></div>
-                <p class="descricao-sobre-p">Este site foi feito foi baseado em um dos melhores jogadores de futebol atualmente, demonstrando por quais times ele passou, numeros de gols e jogos em toda a sua carreira e suas conquistas.</p>
-
-                <p class="titulo-sobre-p-a">TRIAGEM</p>
-                <div class="barrinha-2-sp-a"></div>
-                <p class="descricao-sobre-p">Este projeto foi feito com o intuito de fazer uma triagem online voltada para pessoas que tem sintomas similares ao da dengue, ele fornece uma lista de sintomas que devem ser selecinados de acordo com o que o usuário está sentindo e retorna uma resposta sobre o estado de saúde.</p>
-
-                <p class="titulo-sobre-p-a">CROSS ARENA</p>
-                <div class="barrinha-2-sp-a"></div>
-                <p class="descricao-sobre-p">Este site foi construido especificamente para uma academia local, é uma landing page composta por um pequeno formulário de cadastro que será enviado diretamente para o whatsApp da empresa.</p>
-            </div>
-        </div>
-        </div>
-    </div>    
-
-
-<!-- MINI MENU  -->
-    <div class="modal">
-        <ul class="modais">
-            <li onclick="abrir_curriculo()"> Meu currículo </li>
-            <div class="barra-vertical"></div>
-            <li onclick="abrir_sobremim()"> Sobre Mim </li>
-            <div class="barra-vertical"></div>
-            <li onclick="abrir_sobreprojetos()"> Sobre os projetos  </li>
-        </ul>
-    </div>
-
-
-<!-- TITULO -->
-    <div class="titulo"> 
-       <p class="frase"></p> 
-    </div>
-
-    
-<!-- AREA DOS PROJETOS -->
+    <!-- AREA DOS PROJETOS -->
     <div class="projetos">
         <p>MEUS PROJETOS</p>
-        <div class="barra"> </div>
+        <div class="barra"></div>
     </div>
-    <div class="meio"> 
+    <section class="meio">
         <div class="container">
-            <a href="https://ianbarbosa1.github.io/Mascote/" target="_blank"> 
+            <a href="https://ianbarbosa1.github.io/Mascote/" target="_blank">
                 <div class="container-interno">
                     <img src="./imagens/mascote.jpg" alt="">
                     <p> Mascote Rações </p>
+
+                    <div class="about">Este projeto foi baseado em um pet shop que foi a primeira empresa que eu
+                        trabalhei, ele foi elaborado para demonstrar alguns dos principais produtos mais procurados e
+                        também para mostrar a localização detalhada de cada filial.</div>
                 </div>
             </a>
-            
-            <a href="https://ianbarbosa1.github.io/Roberts/" target="_blank"> 
+
+            <a href="https://ianbarbosa1.github.io/Roberts/" target="_blank">
                 <div class="container-interno">
                     <img src="./imagens/roberts.jpg" alt="">
                     <p> Roberts Mix </p>
+
+                    <div class="about">Este projeto foi baseado em uma rústica lanchonete local, possui alguns dos
+                        principais produtos do cardapio e também possui uma estrutura de tipo ou sabor de escolha, essa
+                        estrutura levará o usuário para o WhatsApp da empresa com o produto escolhido.</div>
                 </div>
             </a>
 
-            <a href="https://ianbarbosa1.github.io/Cristiano-Ronaldo/" target="_blank"> 
+            <a href="https://ianbarbosa1.github.io/Cristiano-Ronaldo/" target="_blank">
                 <div class="container-interno">
-                    <img src="./imagens/cr7.jpeg" alt="">
+                    <img src="./imagens/cr7.jpg" alt="">
                     <p> Cristiano Ronaldo </p>
+
+                    <div class="about">Este site foi baseado em um dos melhores jogadores de futebol atualmente, nele é
+                        mostrado quais times esse jogador passou, quantos gols ele fez até o momento em sua carreira e
+                        todas as suas conquistas.</div>
                 </div>
             </a>
 
-            <a href="https://ianbarbosa1.github.io/Triagem/" target="_blank"> 
+            <a href="https://ianbarbosa1.github.io/Triagem/" target="_blank">
                 <div class="container-interno">
                     <img src="./imagens/triagem.png" alt="">
                     <p> Triagem </p>
+
+                    <div class="about">Este projeto foi feito com o intuito de fazer uma triagem online voltada para
+                        pessoas que tem sintomas similares ao da dengue, ele fornece uma lista de sintomas que devem ser
+                        selecionado de acordo com o que o usuário está sentindo e retorna uma resposta sobre o estado de
+                        saúde.</div>
                 </div>
             </a>
 
-            <a href="https://ianbarbosa1.github.io/Cross-Arena/" target="_blank"> 
+            <a href="https://ianbarbosa1.github.io/Cross-Arena/" target="_blank">
                 <div class="container-interno">
                     <img src="./imagens/cross arena.jpg" alt="">
                     <p> Cross Arena </p>
+
+                    <div class="about">Este site foi construido especificamente para uma academia local, é uma landing
+                        page composta por um pequeno formulário de cadastro que será enviado diretamente para o WhatsApp
+                        da empresa, co todos os dados preenchidos.</div>
+                </div>
+            </a>
+
+            <a href="https://ianbarbosa1.github.io/MM-GOURMET/" target="_blank">
+                <div class="container-interno">
+                    <img src="./imagens/mm-gourmet.jpg" alt="">
+                    <p> MM Gourmet</p>
+
+                    <div class="about">Este projeto trata-se de um cardápio de uma empresa local, ele possui um carrinho
+                        de compras que está interligado com as escolhas do usuário, ele coleta todos os dados
+                        preenchidos pelo usuário e os encaminha para o WhatsApp da empresa como uma solicitação de
+                        entrega</div>
+                </div>
+            </a>
+
+            <a href="http://www.neojobs.com.br/" target="_blank">
+                <div class="container-interno">
+                    <img src="./imagens/neojobs.png" alt="">
+                    <p>NeoJobs</p>
+
+                    <div class="about">O projeto NeoJobs foi o meu primeiro projeto postado por uma empresa, a página
+                        possui os serviços prestados pela empresa, um formulário para envio de curriculo, e um
+                        formulário para solicitação de serviços.</div>
                 </div>
             </a>
         </div>
-    </div>
+    </section>
 
-<!-- REPOSITÓRIO -->  
+    <!-- REPOSITÓRIO -->
     <a href="https://github.com/Ianbarbosa1" class="repositorio">
-        <img src="./imagens/icons8-código-48.png" alt="">   
+        <img src="./imagens/icons8-código-48.png" alt="">
         <p>REPOSITÓRIO</p>
     </a>
-                
+
     <script src="./assents/script/script.JS"></script>
 </body>
 </html>
