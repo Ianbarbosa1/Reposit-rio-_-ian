@@ -43,7 +43,6 @@ body::before{
     width: 560px;
 }
 
-
 /* SOBRE MIM */
 .modal-sm{
     height: 100vh;
@@ -95,7 +94,6 @@ body::before{
 }
 
 
-
 /* FECHAMENTOS */
 .fechar-1, .fechar-2{
     height:25px;
@@ -113,6 +111,7 @@ body::before{
     color: red;
 }
 
+/*TITULO DE ENTRADA*/
 .titulo{
     text-align: center;
     font-size: 35px;
@@ -123,6 +122,7 @@ body::before{
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
+
 
 /* MINI MENU*/
 .modal{
@@ -273,6 +273,7 @@ body::before{
 .repositorio:hover{
     width: 140px;
 }
+
 
 @keyframes degrade {
     0%{
