@@ -221,7 +221,8 @@ body::before{
     color: white;
     border: 1px solid white;
     transform: translateY(135px);
-    background-color: #0000007c;
+    background-color: #00000075;
+    backdrop-filter: blur(50px);
     font-size: 15px;
     transition: all 0.5s ease-in-out;
 }
