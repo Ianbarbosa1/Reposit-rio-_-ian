@@ -13,7 +13,7 @@ body::before{
     background-position: center;
     position:fixed;
     z-index: -1;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
 }
 
@@ -50,6 +50,7 @@ body::before{
     padding-top: 20px;
     padding-bottom: 3px;
     font-size: 25px;
+    font-weight: 500;
     text-decoration: underline;
 }
 .descricao-sobre-m{
@@ -59,6 +60,7 @@ body::before{
     width: 600px;
 }
 .code{
+    font-weight: 450;
     margin-top: 5px;
     font-size: 20px;
 }
@@ -67,6 +69,7 @@ body::before{
     margin: 10px;
 }
 .redes-title{
+    font-weight: 450;
     font-size: 20px;
     margin-top: 20px;
 }
@@ -162,10 +165,6 @@ body::before{
     font-size: 35px;
     text-decoration: underline;
 }
-span{
-    color: rgb(58, 183, 255);
-    text-decoration: underline;
-}
 main{
     height:100%;
     margin-top: 30px;
@@ -204,13 +203,13 @@ main{
 .one a{
     text-decoration: none;
     color: white;
-    padding: 10px 45px;
-    border-radius: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
     background-image: linear-gradient(to  right, rgb(0, 174, 255), rgb(0, 89, 255),rgb(18, 54, 210));
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .one a:hover{
-    color: rgba(0, 0, 0, 0.678);
+    font-weight: 600;
 }
 .two{
     width: 50%;
@@ -259,5 +258,4 @@ main{
     100%{
         background-position-x: 100%;
     }
-    
 }
