@@ -7,7 +7,7 @@
 
 /*IMAGEM DE FUNDO*/
 body::before{
-    background-image: url(../imagens/back-1.png);
+    background-image: url(../imagens/back-1.jpg);
     content:"";
     background-size:cover;
     background-position: center;
