@@ -1,0 +1,104 @@
+@media screen and (min-width:350px) and (max-width:479px){
+    /*SOBRE MIM*/
+    .div-interna{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .descricao-sobre-m{
+        padding: 5px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .titulo-sobre-m, .code, .redes-title{
+        margin:10px 0px;
+    }
+    .fechar{
+        margin-bottom:0px;
+        margin-left:0px;
+        top: 50px;
+        right: 10px;
+    }
+    /*TITULO DE ENTRADA*/
+    .frase{
+        font-size: 20px;
+    }
+    /*PROJETOS*/
+    .container-interno{
+        padding: 15px 5px;
+    }
+    .container-interno h1{
+        font-size: 20px;
+    }
+    .one img{
+        height: 100px;
+    }
+    .nome{
+        font-size: 15px;
+    }
+    .one a{
+        text-decoration: none;
+        padding: 7px 15px;
+    }
+    .two{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:689px){
+    /*SOBRE MIM*/
+    .div-interna{
+        width: 100%;
+    }
+    .descricao-sobre-m{
+        padding: 5px;
+        font-size: 16px;
+        width: 480px;
+    }
+    .titulo-sobre-m, .code, .redes-title{
+        margin:10px 0px;
+    }
+    .fechar{
+        margin-bottom:0px;
+        margin-left:0px;
+        top: 50px;
+        right: 10px;
+    }
+    /*TITULO DE ENTRADA*/
+    .frase{
+        font-size: 25px;
+    }
+    /*PROJETOS*/
+    .container-interno{
+        padding: 15px 5px;
+    }
+    .container-interno h1{
+        font-size: 25px;
+    }
+    .one img{
+        height: 130px;
+    }
+    .two{
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width:690px) and (max-width:849px){
+    /*PROJETOS*/
+    .container-interno{
+        padding: 30px;
+    }
+    .two{
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+/*MODIFICAÇÃO GERAL*/
+@media screen and (max-width:1000px){
+    /*PROJETOS*/
+    .container-interno{
+        width: 95%;
+    }
+}

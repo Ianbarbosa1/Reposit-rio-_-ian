@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+    color: white;
+}
+
+/*IMAGEM DE FUNDO*/
+body::before{
+    background-image: url(../imagens/back-2-reduzida.jpg);
+    content:"";
+    background-size:cover;
+    background-position: center;
+    position:fixed;
+    z-index: -1;
+    height: 100dvh;
+    width: 100%;
+}
+
+
+/*DIVs FLEX*/
+.modal-sm.abrir, .div-interna, .redes-sociais, .fechar-1, .fechar-2, .modal, .titulo,  .container, .first-section, .second-section,  .one, .two, footer, .repositorio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SOBRE MIM */
+.modal-sm{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: none;
+    background-color: #18171785;
+    backdrop-filter: blur(2px);
+    z-index: 99;
+}
+.div-interna{
+    flex-direction: column;
+    text-align: center;
+    content: "";
+    background-image: url(../imagens/código.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.titulo-sobre-m, .code, .redes-title{
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.descricao-sobre-m{
+    padding: 20px;
+    font-size: 17px;
+    width: 550px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.linguagens img{
+    height: 50px;
+    margin: 10px;
+}
+.redes-sociais{
+    gap: 30px;
+    margin: 10px 0px 30px 0px;
+}
+.redes-sociais img{
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.redes-sociais img:hover{
+    border: 1px solid transparent;
+}
+.fechar{
+    width: 30px;
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+    position:fixed;
+    cursor: pointer;
+    margin-bottom: 510px;
+    margin-left: 550px;
+}
+
+/* MINI MENU*/
+.modal{
+    height: 50px;
+    width: 100%;
+    z-index: -1;
+}
+.modais {
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(5px 5px 10px rgb(41,51,117));
+    font-family:'Montserrat';
+    border-right:2px solid white;
+    border-left:2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9px;
+}
+.modais p, .modais a{
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.modais p:hover, .modais a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: 1s;
+}
+.barra-vertical{
+    height: 20px;
+    width: 4px;
+    background-color: rgb(1,229,240);
+}
+
+/*TITULO DE ENTRADA*/
+.titulo{
+    padding-top: 50px;
+    text-align: center;
+}
+.frase{
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+    font-weight: 300;
+    border-bottom: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+/* PROJETOS FEITOS  */
+
+.container{
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    margin-top: 50px;
+}
+.container-interno{
+    width:80%;
+    background-color: rgba(0, 0, 0, 0.363);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 30px rgba(227,228, 237, 0.37);
+    border: 2px solid rgba(255, 255,255, 0.18);
+    border-radius: 10px;
+    padding: 50px;
+}
+.container-interno h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.first-section{
+    padding: 30px 0px;
+}
+.second-section{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 30px 0px;
+}
+.one{
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+}
+.one img{
+    height: 150px;
+    border-radius: 50%;
+}
+.nome{
+    font-size: 20px;
+    font-family: "Raleway", serif;
+}
+.one a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, rgb(0, 174, 255), rgb(0, 89, 255),rgb(18, 54, 210));
+    transition: all 0.5s;
+}
+.one a:hover{
+    color: rgb(197, 194, 194);
+    filter: drop-shadow(0px 0px 2px rgb(0, 174, 255));
+}
+.two{
+    width: 50%;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* REPOSITÓRIOS */
+.repositorio{
+    width: 41px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to left, rgb(0, 255, 242),rgb(5, 226, 255),rgb(219,18,126),rgb(5, 70, 155),rgb(6, 53, 206));
+    animation: degrade 5s infinite alternate;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.repositorio img{
+    height: 40px;
+    border-radius: 20px;
+}
+.repositorio P{
+    width:0px;
+    transition: all 0.5s ease-in-out; 
+}
+.repositorio:hover p{
+    width: 100%;
+    
+}
+.repositorio:hover{
+    width: 155px;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
